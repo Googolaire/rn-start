@@ -142,7 +142,7 @@ TouchableOpacity is not self closing like the button primitive element. You need
 
 ### End of session Brief
 
-I left off at video number 27 In the next section we will look at how to actually navigate to a new route from another screen. 
+I left off at video number 27 In the next section we will look at how to actually navigate to a new route from another screen by calling a function on the onPress. 
 
 
 ##### Assets
