@@ -152,3 +152,67 @@ C:\Users\owner\Documents\ReactNative\rn-starter
 [https://nodejs.org/download/release/v12.10.0/node-v12.10.0-x64.msi](https://nodejs.org/download/release/v12.10.0/node-v12.10.0-x64.msi)
 
 [Official Course Repo ](https://github.com/StephenGrider/rn-casts)
+
+
+
+## Dec 22nd 2019
+
+@googolaire
+
+
+### Game Plan 
+
+Creating a navigable route from the initial component to  another component via the button or TouchableOpacity 
+
+React Navigation has changed a bit since their recent v.4.0.0 release:
+
+https://github.com/react-navigation/react-navigation/releases/tag/v4.0.0
+
+We must now install three libraries separately. In your terminal run the following command:
+
+npx expo-cli install react-native-gesture-handler react-native-reanimated react-navigation-stack
+
+Our imports in the upcoming lecture will now look like this:
+
+import { createAppContainer } from 'react-navigation';
+
+import { createStackNavigator } from 'react-navigation-stack';
+
+✔️Install react-native-gesture-handler 
+
+
+    ✔️Install react-native-reanimated 
+
+
+    ✔️Install react-navigation-stack
+
+
+    ✔️Console.log(props)
+
+
+    ✔️console.log(props.navigation)
+
+
+    ✔️Use the navigation function to navigate to one of our routes
+
+
+### Issues I had
+
+
+
+1. I was not able to hot load the app
+    1. (solved) terminated and restarted the app
+*   Mid session links
+
+    [https://www.udemy.com/course/the-complete-react-native-and-redux-course/learn/lecture/15706594#overview](https://www.udemy.com/course/the-complete-react-native-and-redux-course/learn/lecture/15706594#overview)
+
+*   End of session links
+
+
+### End of session Brief
+
+Didn't get as much done today as I would have liked. What we did do was create a navigable button using the built in prop navigation and the method chained to that navigate(‘ComponentToNavigateTo’)  
+
+
+##### Assets
+
