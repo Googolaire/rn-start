@@ -71,45 +71,45 @@ Now to do the TouchableOpacity version of a “Button”  To do that we just
 
 TouchableOpacity is not self closing like the button primitive element. You need to add the elements you want to react to a touch inside of the two tags. To use it for a press event add the prop onPress with the function to call.
 
-[✅](https://emojipedia.org/white-heavy-check-mark/) Download node v12.10.0 
+[✅] Download node v12.10.0 
 
 
-    [✅](https://emojipedia.org/white-heavy-check-mark/) Install expo
+[✅] Install expo
 
 
-    [✅](https://emojipedia.org/white-heavy-check-mark/) Install yarn
+[✅] Install yarn
 
 
-    [✅](https://emojipedia.org/white-heavy-check-mark/) Create a component
+[✅] Create a component
 
 
-    [✅](https://emojipedia.org/white-heavy-check-mark/) Add style to the component 
+[✅] Add style to the component 
 
 
-    [✅](https://emojipedia.org/white-heavy-check-mark/) Connect the component to the stack navigator
+[✅] Connect the component to the stack navigator
 
 
-    [✅](https://emojipedia.org/white-heavy-check-mark/)  Do simple Getting started exercise.
+[✅] Do simple Getting started exercise.
 
-[✅](https://emojipedia.org/white-heavy-check-mark/) Building a List 
+[✅] Building a List 
 
-[✅](https://emojipedia.org/white-heavy-check-mark/) Again Once a component is created you have to wire it up in the app.js file to the navigator 
+[✅] Again Once a component is created you have to wire it up in the app.js file to the navigator 
 
-[✅](https://emojipedia.org/white-heavy-check-mark/)  Use FlatList (Primitive Element) To turn an array into a list of elements
+[✅]  Use FlatList (Primitive Element) To turn an array into a list of elements
 
-[✅](https://emojipedia.org/white-heavy-check-mark/)  Add some textStyle to the list to give it some margin vertical
+[✅]  Add some textStyle to the list to give it some margin vertical
 
-[✅](https://emojipedia.org/white-heavy-check-mark/)  Exercise Add an age property to the  friend objects
+[✅]  Exercise Add an age property to the  friend objects
 
-[✅](https://emojipedia.org/white-heavy-check-mark/) Make the list items vertical again
+[✅] Make the list items vertical again
 
-[✅](https://emojipedia.org/white-heavy-check-mark/) Print out the Friends Name and - Age 
+[✅] Print out the Friends Name and - Age 
 
-[✅](https://emojipedia.org/white-heavy-check-mark/) Make the main view the Home Screen
+[✅] Make the main view the Home Screen
 
-[✅](https://emojipedia.org/white-heavy-check-mark/) Create a button to Console.log ‘Button Pressed’
+[✅] Create a button to Console.log ‘Button Pressed’
 
-[✅](https://emojipedia.org/white-heavy-check-mark/) Making a TouchableOpacity “Button” to console.log ‘List Pressed’
+[✅] Making a TouchableOpacity “Button” to console.log ‘List Pressed’
 
 
 ### Issues I had
