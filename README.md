@@ -198,8 +198,6 @@ import { createStackNavigator } from 'react-navigation-stack';
 
 ### Issues I had
 
-
-
 1. I was not able to hot load the app
     1. (solved) terminated and restarted the app
 *   Mid session links
@@ -216,3 +214,82 @@ Didn't get as much done today as I would have liked. What we did do was create a
 
 ##### Assets
 
+    ## Dec 24 2019
+
+@Googolaire
+
+
+### Game Plan 
+
+	Created a new screen (ImageScreen) and then created a component (ImageDetail) And passes from props to the ImageScreen, displayed images on the screen through the ImageDetail using the source attribute and requiring the relative path  (‘../../asset/images’) then we console.log(props) in the image detail to see the imagesource prop. An image id is clearly being assigned. To make it dynamic we make source={props.imagesource} which will be a string to the path. For an exercise We are adding a new prop that indicates a ImageScore and displaying it in the text field. We destructured the props so we dont need to use props.
+
+We went over not mutating the state directly. And instead set it with the setVartiable(variable + 1);   
+
+
+###### 
+    ✔️Section 5: Build Reusable Components 
+
+
+        ✔️ Put the app into a working state 
+
+
+        ✔️30.) Component Reuse WIth Props
+
+
+        ✔️31.) Exercise Solution
+
+
+        ✔️32.) Parent Child Relations
+
+
+        ✔️33.) Communicating from parent to child 
+
+
+        ✔️35.)Showing Images 
+
+
+        ✔️36.) Passing Images as props
+
+
+        ✔️37.)Exercise Outline
+
+
+        ✔️38.)Exercise Solution
+
+
+
+*   Section 6: State Management in React Components
+
+        ✔️39.) state in components
+
+
+        ✔️40.) Screen Boilerplate
+
+
+        ✔️41.)State in Action
+
+
+
+### Issues I had
+
+
+
+1. I was having some issues
+    1. (solved) just deleting the node module dir and package-lock.json seemed to resolve it. 
+*   Mid session links
+
+        [https://www.one-tab.com/page/V5tFazTsTUK8yJNTmZ37eQ](https://www.one-tab.com/page/V5tFazTsTUK8yJNTmZ37eQ)
+
+*   End of session links
+
+
+### End of session Brief
+
+
+##### Assets
+
+Screens: ImageScreen
+
+Component: ImageDetail
+
+CounterScreen
