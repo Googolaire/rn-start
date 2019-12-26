@@ -293,3 +293,65 @@ Screens: ImageScreen
 Component: ImageDetail
 
 CounterScreen
+
+
+## Dec 25th 2019
+
+@googolaire
+
+
+### Game Plan 
+
+Building a new screen to use state. We are going to make a color random app. We hooked up the add color button and created a template literal for the backgroundColor property. On the button prease its updated by creating a new array. This is the preferred and only true way to set state. 
+
+In this next section we are going to build increasing and decreasing functionality that should be made out of a reusable component.  
+
+Generally we should create state variables in the most parent component that needs to read or change a state value.
+
+
+
+*   Section 6: State Management in React Components
+
+        ✔️42.)Notes on State 
+
+
+        ✔️43.)App Overview
+
+
+        ✔️44.)Generating Random Colors
+
+
+        ✔️45.) Adding Random Colors
+
+
+        ✔️46.)Showing colors with a FlatList
+
+
+        ✔️47.)App OverView
+
+
+        ✔️48.)Reusable Color Adjusters
+
+
+        ✔️49.)Coordinating State
+
+
+
+### Issues I had
+
+
+
+*   LInks
+
+	[https://www.udemy.com/course/the-complete-react-native-and-redux-course/learn/lecture/15706688?start=360#overview](https://www.udemy.com/course/the-complete-react-native-and-redux-course/learn/lecture/15706688?start=360#overview)
+
+
+### End of session Brief
+
+Left off where we would use state changes as props, ie. onIncrease onDecrease 
+
+
+##### Assets
+SquareScreen
+ColorScreen
+CounterScreen
