@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@babel/core": "^7.7.7",
-    "expo": "^33.0.7",
+    "expo": "^48.0.0",
     "expo-cli": "^3.11.3",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
