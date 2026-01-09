@@ -10,7 +10,7 @@
   "dependencies": {
     "@babel/core": "^7.7.7",
     "expo": "^33.0.7",
-    "expo-cli": "^3.11.3",
+    "expo-cli": "^6.3.12",
     "react": "16.8.3",
     "react-dom": "^16.8.6",
     "react-native": "https://github.com/expo/react-native/archive/sdk-33.0.0.tar.gz",
